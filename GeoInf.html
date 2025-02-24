@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="GEO_INF.css">
+        <title>GeograficInformations</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <img src="logo.png" id="logo" alt="logo">
+            <h1>Get Information About Countries</h1>
+        </header>
+        <main>
+            <nav id="filtr">
+                <ul type="none" class="nul">
+                    <h3 class="tit">Region:</h3>
+                    <li class="region">Africa</li>
+                    <li class="region">Asia</li>
+                    <li class="region">North America</li>
+                    <li class="region">South America</li>
+                    <li class="region">Oceania</li>
+                    <li class="region">Europe</li>
+                </ul>
+                <ul type="none" class="nul">
+                    <h3 class="tit">Languages:</h3>
+                            <ul type="none">
+                                  <strong class="tit">A</strong>
+                                  <li class="language">Afrikaans</li>
+                                  <li class="language">Albanian</li>
+                                  <li class="language">Amharic</li>
+                                  <li class="language">Arabic</li>
+                                  <li class="language">Armenian</li>
+                                  <li class="language">Azerbaijani</li>
+                                </ul>
+
+                                <ul type="none">
+                                  <strong class="tit">B</strong>
+                                  <li class="language">Belarusian</li>
+                                  <li class="language">Bengali</li>
+                                  <li class="language">Belizean Creole</li>
+                                  <li class="language">Berber</li>
+                                  <li class="language">Bulgarian</li>
+                                  <li class="language">Burmese</li>
+                                </ul>
+
+                                <ul type="none">
+                                  <strong class="tit">C</strong>
+                                  <li class="language">Catalan</li>
+                                  <li class="language">Chamorro</li>
+                                  <li class="language">Chinese</li>
+                                  <li class="language">Comorian</li>
+                                  <li class="language">Cook Islands Māori</li>
+                                  <li class="language">Croatian</li>
+                                  <li class="language">Czech</li>
+                                </ul>
+
+                                <ul type="none">
+                                  <strong class="tit">D</strong>
+                                  <li class="language">Dari</li>
+                                  <li class="language">Dzongkha</li>
+                                  <li class="language">Dutch</li>
+                                </ul>
+
+                                <ul type="none">
+                                  <strong class="tit">E</strong>
+                                  <li class="language">English</li>
+                                  <li class="language">Estonian</li>
+                                </ul>
+
+                                <ul type="none">
+                                  <strong class="tit">F</strong>
+                                  <li class="language">Faroese</li>
+                                  <li class="language">Fijian</li>
+                                  <li class="language">Filipino</li>
+                                  <li class="language">Finnish</li>
+                                  <li class="language">French</li>
+                                </ul>
+
+                                <ul type="none">
+                                  <strong class="tit">G</strong>
+                                  <li class="language">Galician</li>
+                                  <li class="language">Georgian</li>
+                                  <li class="language">German</li>
+                                  <li class="language">Greek</li>
+                                  <li class="language">Greenlandic</li>
+                                  <li class="language">Guarani</li>
+                                  <li class="language">Guernésiais</li>
+                                </ul>
+
+                                <ul type="none">
+                                  <strong class="tit">H</strong>
+                                  <li class="language">Haitian Creole</li>
+                                  <li class="language">Hawaiian</li>
+                                  <li class="language">Hebrew</li>
+                                  <li class="language">Hindi</li>
+                                  <li class="language">Hiri Motu</li>
+                                  <li class="language">Hungarian</li>
+                                </ul>
+
+                                <ul type="none">
+                                  <strong class="tit">I</strong>
+                                  <li class="language">Icelandic</li>
+                                  <li class="language">Indonesian</li>
+                                  <li class="language">Irish</li>
+                                  <li class="language">Italian</li>
+                                </ul>
+
+                                <ul type="none">
+                                  <strong class="tit">J</strong>
+                                  <li class="language">Jamaican Patois</li>
+                                  <li class="language">Japanese</li>
+                                  <li class="language">Jèrriais</li>
+                                </ul>
+
+                                <ul type="none">
+                                  <strong class="tit">K</strong>
+                                  <li class="language">Kazakh</li>
+                                  <li class="language">Khmer</li>
+                                  <li class="language">Kikongo</li>
+                                  <li class="language">Kinyarwanda</li>
+                                  <li class="language">Kirundi</li>
+                                  <li class="language">Korean</li>
+                                  <li class="language">Kyrgyz</li>
+                                </ul>
+
+                                <ul type="none">
+                                  <strong class="tit">L</strong>
+                                  <li class="language">Lao</li>
+                                  <li class="language">Latvian</li>
+                                  <li class="language">Lingala</li>
+                                  <li class="language">Lithuanian</li>
+                                  <li class="language">Luxembourgish</li>
+                                </ul>
+
+                                <ul type="none">
+                                  <strong class="tit">M</strong>
+                                  <li class="language">Macedonian</li>
+                                  <li class="language">Malagasy</li>
+                                  <li class="language">Malay</li>
+                                  <li class="language">Malayalam</li>
+                                  <li class="language">Maltese</li>
+                                  <li class="language">Mandarin Chinese</li>
+                                  <li class="language">Manx</li>
+                                  <li class="language">Maori</li>
+                                  <li class="language">Marathi</li>
+                                  <li class="language">Marshallese</li>
+                                  <li class="language">Mongolian</li>
+                                  <li class="language">Montenegrin</li>
+                                </ul>
+
+                                <ul type="none">
+                                  <strong class="tit">N</strong>
+                                  <li class="language">Nauruan</li>
+                                  <li class="language">Nepali</li>
+                                  <li class="language">New Zealand Sign Language</li>
+                                  <li class="language">Niuean</li>
+                                  <li class="language">Norwegian</li>
+                                  <li class="language">Norwegian Bokmål</li>
+                                  <li class="language">Norwegian Nynorsk</li>
+                                  <li class="language">Norfuk</li>
+                                  <li class="language">Ndebele</li>
+                                  <li class="language">Northern Sotho</li>
+                                  <li class="language">Northern Ndebele</li>
+                                  <li class="language">Northern Sami</li>
+                                </ul>
+
+                                <ul type="none">
+                                  <strong class="tit">P</strong>
+                                  <li class="language">Papiamento</li>
+                                  <li class="language">Pashto</li>
+                                  <li class="language">Persian (Farsi)</li>
+                                  <li class="language">Polish</li>
+                                  <li class="language">Portuguese</li>
+                                  <li class="language">Punjabi</li>
+                                </ul>
+
+                                <ul type="none">
+                                  <strong class="tit">Q</strong>
+                                  <li class="language">Quechua</li>
+                                </ul>
+
+                                <ul type="none">
+                                  <strong class="tit">R</strong>
+                                  <li class="language">Romanian</li>
+                                  <li class="language">Romansh</li>
+                                  <li class="language">Russian</li>
+                                </ul>
+
+                                <ul type="none">
+                                  <strong class="tit">S</strong>
+                                  <li class="language">Sami</li>
+                                  <li class="language">Samoan</li>
+                                  <li class="language">Sango</li>
+                                  <li class="language">Sardinian</li>
+                                  <li class="language">Scots</li>
+                                  <li class="language">Scottish Gaelic</li>
+                                  <li class="language">Serbian</li>
+                                  <li class="language">Seychellois Creole</li>
+                                  <li class="language">Shona</li>
+                                  <li class="language">Sinhala</li>
+                                  <li class="language">Slovak</li>
+                                  <li class="language">Slovene</li>
+                                  <li class="language">Somali</li>
+                                  <li class="language">Southern Ndebele</li>
+                                  <li class="language">Southern Sotho</li>
+                                  <li class="language">Spanish</li>
+                                  <li class="language">Sranan Tongo</li>
+                                  <li class="language">Swahili</li>
+                                  <li class="language">Swedish</li>
+                                  <li class="language">Swiss German</li>
+                                </ul>
+
+                                <ul type="none">
+                                  <strong class="tit">T</strong>
+                                  <li class="language">Tagalog</li>
+                                  <li class="language">Tajik</li>
+                                  <li class="language">Tamil</li>
+                                  <li class="language">Tatar</li>
+                                  <li class="language">Telugu</li>
+                                  <li class="language">Tetum</li>
+                                  <li class="language">Thai</li>
+                                  <li class="language">Tibetan</li>
+                                  <li class="language">Tigrinya</li>
+                                  <li class="language">Tok Pisin</li>
+                                  <li class="language">Tongan</li>
+                                  <li class="language">Tswana</li>
+                                  <li class="language">Turkish</li>
+                                  <li class="language">Turkmen</li>
+                                  <li class="language">Tuvaluan</li>
+                                </ul>
+
+                                <ul type="none">
+                                  <strong class="tit">U</strong>
+                                  <li class="language">Ukrainian</li>
+                                  <li class="language">Urdu</li>
+                                  <li class="language">Uzbek</li>
+                                </ul>
+
+                                <ul type="none">
+                                  <strong class="tit">V</strong>
+                                  <li class="language">Vietnamese</li>
+                                  <li class="language">Volapük</li>
+                                </ul>
+
+                                <ul type="none">
+                                  <strong class="tit">W</strong>
+                                  <li class="language">Walloon</li>
+                                  <li class="language">Welsh</li>
+                                  <li class="language">Western Frisian</li>
+                                  <li class="language">Wolof</li>
+                                </ul>
+
+                                <ul type="none">
+                                  <strong class="tit">X</strong>
+                                  <li class="language">Xhosa</li>
+                                </ul>
+
+                                <ul type="none">
+                                  <strong class="tit">Y</strong>
+                                  <li class="language">Yiddish</li>
+                                  <li class="language">Yoruba</li>
+                                </ul>
+
+                                <ul type="none">
+                                  <strong class="tit">Z</strong>
+                                  <li class="language">Zhuang</li>
+                                  <li class="language">Zulu</li>
+                                </ul>
+                </ul>
+                <h4 id="selFil"></h4>
+            </nav>
+            <article>
+              <div id="kontener">
+                <input type="text" id="searczer" placeholder="Enter a country name" onchange="getCountryInfo()">
+              </div>
+              <div id="countryInfo"></div>
+            </article>
+        </main>
+        <script src="GEO_INF%20(1).js"></script>
+    </body>
+</html>
